@@ -1,6 +1,7 @@
 name: allure-kotlin-junit5-gradle-kts
 
 on:
+  workflow_dispatch:
   push:
     branches-ignore:
       - '!master'
